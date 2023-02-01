@@ -24,7 +24,7 @@
 
         <div class="opciones_menu">
 
-            <a href="#" class="selected">
+            <a href="./index.html" class="selected">
                 <div class="opciones">
                     <i class="fa-solid fa-house" title="Inicio"></i>
                     <h4>Incio</h4>
@@ -38,7 +38,7 @@
                 </div>
             </a>
 
-            <a href="./contacto.html">
+            <a href="#">
                 <div class="opciones">
                     <i class="fa-solid fa-address-book" title="Contacto"></i>
                     <h4>Contacto</h4>
@@ -57,12 +57,19 @@
     </div>
 
         <main>
-            <h2>GALERIA</h2>
-            <h3>Aqui puedes ver tus fotografias</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus? Animi labore quod quis earum fugiat doloribus illo expedita, doloremque quas sunt? Laborum, reprehenderit fugit? Minus neque quidem placeat pariatur?
-            Adipisci dolores illum, sed velit minus aut similique. Dolorum suscipit iusto, sit molestias ipsam tenetur officia alias hic maxime quos atque tempore. Omnis optio labore deserunt dicta nihil cumque sequi?</p>
+            <form action="" id="fomr" class="form">
+                <h3 class="titulo_contacto">Contactanos</h3>
+                <label for="name">Nombre Completo <span>*</span></label>
+                <input type="text" name="name" id="name" required type="text" placeholder="Nombre">
+                <label for="email">Correo Electronico <span>*</span></label>
+                <input type="text" name="email" id="email" placeholder="Email">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button type="submit" class="btn primary full">Enviar</button>
+            </form>
         </main>
 
     <script src="./JS/indes.js"></script>
+    <script src="./JS/formulario.js"></script>
 </body>
 </html>
