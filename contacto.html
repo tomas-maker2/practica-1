@@ -18,8 +18,8 @@
     <div class="menu_side" id="menu_side">
 
         <div class="name_page">
-            <i class="fa-brands fa-youtube"></i>
-            <h4>magnus</h4>
+            <i class="fa-brands fa-galactic-republic"></i>
+            <h4>PhotoPlus</h4>
         </div>
 
         <div class="opciones_menu">
@@ -45,29 +45,33 @@
                 </div>
             </a>
 
-            <a href="#">
-                <div class="opciones">
-                    <i class="fa-solid fa-users" title="Nosotros"></i>
-                    <h4>Nosotros</h4>
-                </div>
-            </a>
-
         </div>
 
     </div>
 
         <main>
-            <form action="" id="fomr" class="form">
-                <h3 class="titulo_contacto">Contactanos</h3>
-                <label for="name">Nombre Completo <span>*</span></label>
-                <input type="text" name="name" id="name" required type="text" placeholder="Nombre">
-                <label for="email">Correo Electronico <span>*</span></label>
-                <input type="text" name="email" id="email" placeholder="Email">
-                <label for="message">Mensaje</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <button type="submit" class="btn primary full">Enviar</button>
+            <form class="formulario" id="formulario" action="">
+                <h1 class="formulario__titulo">Contáctenos</h1>
+                <input name="nombre" type="text" class="formulario__input">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <input name="correo" type="text" class="formulario__input">
+                <label for="correo" class="formulario__label">Correo</label>
+                <input name="telefono"  type="text" class="formulario__input">
+                <label for="telefono" class="formulario__label">Teléfono</label>
+                <input  name="mensaje" type="text" class="formulario__input">
+                <label for="mensaje" class="formulario__label">Mensaje</label>
+                <input type="submit" class="formulario__submit">
             </form>
+            <a id="truco" href="mailto:tbolotnicoff@gmail.com">mail</a>
         </main>
+
+        <footer>
+            <section>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""> <i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </section>
+        </footer>
 
     <script src="./JS/indes.js"></script>
     <script src="./JS/formulario.js"></script>

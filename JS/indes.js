@@ -37,3 +37,6 @@ window.addEventListener("resize", function(){
         sideMenu.classList.add("menu_side_move")
     }
 })
+
+//carousel
+
